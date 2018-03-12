@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2018-02-03 10:22:16 -0300
-tags: ['example','welcome','jekyll', 'typing']
+title:  "Typing tutorial"
+date:   2018-02-03 10:22:16 0800
+tags: ['jekyll', 'typing']
 published: true
 comments: true
 script: [post.js]
