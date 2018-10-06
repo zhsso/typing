@@ -144,6 +144,27 @@ userdata:
 
 ### Appearance
 
+**Typing**
+
+![Typing](https://raw.githubusercontent.com/williamcanin/typing-jekyll-template/master/README/images/typing.png)
+
+**Whiteglass**
+
+![Whiteglass](https://raw.githubusercontent.com/williamcanin/typing-jekyll-template/master/README/images/whiteglass.png)
+
+**Hacking**
+
+![Hacking](https://raw.githubusercontent.com/williamcanin/typing-jekyll-template/master/README/images/hacking.png)
+
+**Littlegirl**
+
+![Littlegirl](https://raw.githubusercontent.com/williamcanin/typing-jekyll-template/master/README/images/littlegirl.png)
+
+**Custom** (This is not a theme, just for you to customize to taste.)
+
+![Custom](https://raw.githubusercontent.com/williamcanin/typing-jekyll-template/master/README/images/custom.png)
+
+
 You can change the colors of the Typing Jekyll Template with a simple line changes. In the "**_data/data.yml**" file, change the "`website => theme`" property as listed the themes available in the comment. Example:
 
 ```yaml
@@ -160,9 +181,48 @@ Currently, there are 4(four) that *Typing* supports:
 - littlegirl
 
 
-
-
 Feel free to configure as you want. :)
+
+
+## Date and 'Reading time' Language
+
+Typing has the language setting for the date and a message in the post for read time. These settings are available in the "**_config.yml**"
+
+
+### Reading time
+
+To change the phrase of Reading time, go to the section 'To see language support, go to the plugin '_plugins/reading_time.rb'', change the value of 'reading_time > locale' to your locality*.
+
+ E.g: 
+```yaml
+ reading_time:
+        locale: en_US
+```
+
+### Datelang
+
+To change the date language to extensive, search for the section 'To see language support, go to the plugin '_plugins/datelang.rb'' ', change the value 'datelang > locale' to your locality*.
+
+Change the 'datelang > reload' to 'true', compile the project (./init.sh build or bundle exec jekyll build). After compiling, return the value of 'datelang > reload' to 'false'.
+
+ E.g:
+```yaml
+ datelang:
+        locale: en_US
+        reload: true
+```
+
+* The languages supported are:
+
+    * ch_CH - Chinese
+    * de_DE - Deutschland 
+    * en_US - English
+    * es_ES - Spanish
+    * fr_FR - French
+    * it_IT - Italian
+    * ja_JP - Japan
+    * pt_PT - Portuguese
+    * ru_RU - Russian
 
 ## Post and Page
 
